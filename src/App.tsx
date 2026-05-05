@@ -288,18 +288,18 @@ export default function App() {
           </AnimatePresence>
         </div>
 
-        <footer class="h-14 bg-white border-t border-editorial-border flex items-center px-8 justify-between text-[10px] font-black uppercase tracking-[0.2em] text-[#999]">
-          <div class="flex gap-8">
+        <footer className="h-14 bg-white border-t border-editorial-border flex items-center px-8 justify-between text-[10px] font-black uppercase tracking-[0.2em] text-[#999]">
+          <div className="flex gap-8">
             <span>Archive Ref: #TRNC-CMU-2024</span>
-            <span class="hidden md:inline">Source: LegalAI Matrix Dataset</span>
+            <span className="hidden md:inline">Source: LegalAI Matrix Dataset</span>
           </div>
-          <div class="flex gap-6 items-center">
-            <div class="flex gap-2 items-center">
-              <div class="w-2 h-2 bg-emerald-500"></div>
+          <div className="flex gap-6 items-center">
+            <div className="flex gap-2 items-center">
+              <div className="w-2 h-2 bg-emerald-500"></div>
               <span>Uyum</span>
             </div>
-            <div class="flex gap-2 items-center">
-              <div class="w-2 h-2 bg-[#E63946]"></div>
+            <div className="flex gap-2 items-center">
+              <div className="w-2 h-2 bg-[#E63946]"></div>
               <span>Aykırılık</span>
             </div>
           </div>
